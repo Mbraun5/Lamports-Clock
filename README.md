@@ -13,9 +13,9 @@ The tests directory contains output for the tests given in main.cpp.
 The text file project_tests.txt includes the outputs for a limited number of cases.
 The text file comprehensive_tests.txt includes the output for additional, tricky cases.
 By default, my program prints to stdout, but you can redirect the output to a text file by running the linux command
-					./clock > name_of_file.txt
-		assuming the program was compiled so that the executable is clock (as it is written in the makefile)
-
+							./clock > name_of_file.txt
+				assuming the program was compiled so that the executable is clock (as it is written in the makefile)
+				
 The output is split between the two algorithms with clear deliminators between the two.
 
 Enjoy! :)
