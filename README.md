@@ -12,8 +12,8 @@ The Makefile will generate object code for each of the relevant files and will c
 The tests directory contains output for the tests given in main.cpp.<br />
 The text file project_tests.txt includes the outputs for a limited number of cases.<br />
 The text file comprehensive_tests.txt includes the output for additional, tricky cases.<br />
-By default, my program prints to stdout, but you can redirect the output to a text file by running the linux command<br />
-./clock > name_of_file.txt <br />
+By default, my program prints to stdout, but you can redirect the output to a text file by running the linux command<br /><br />
+./clock > name_of_file.txt <br /><br />
 assuming the program was compiled so that the executable is clock (as it is written in the makefile)
 				
 The output is split between the two algorithms with clear deliminators between the two.
