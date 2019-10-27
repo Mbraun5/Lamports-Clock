@@ -1,7 +1,7 @@
 # Lamports-Logical-Clock
 This program contains two components and tests for both: 
-	1. Verifying whether or not a matrix input is valid for Lamport's Logical Clock
-	2. Calculating a valid Lamport's Logical Clock matrix for a given input.
+1. Verifying whether or not a matrix input is valid for Lamport's Logical Clock
+2. Calculating a valid Lamport's Logical Clock matrix for a given input.
 
 Test cases are included in main.cpp.
 The algorithm calculate is included in the CalculateClock.cpp file.
