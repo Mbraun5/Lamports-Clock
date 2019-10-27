@@ -1,0 +1,45 @@
+
+*****************************************
+***     Algorithm Calculate Tests     ***
+*****************************************
+         ***   TEST NUMBER: 1   ***
+     INPUT                           OUTPUT
+ a  s1  r3   b                1   2   8   9  
+ c  r2  s3           -->      1   6   7   0  
+r1   d  s2   e                3   4   5   6  
+
+
+         ***   TEST NUMBER: 2   ***
+     INPUT                           OUTPUT
+ a  s1  s2   b                1   2   3   4  
+ c  r1  r2  s3       -->      1   3   4   5  
+r1   d  r3   e                3   4   6   7  
+
+
+
+**************************************
+***     Algorithm Verify Tests     ***
+**************************************
+          ***   TEST NUMBER: 1   ***
+     INPUT                              OUTPUT
+ 1   2   8   9   0                a  s1  r3   c    
+ 1   6   7   0   0       -->      d  r2  s3      
+ 3   4   5   6   0               r1   f  s2   h    
+
+
+         ***   TEST NUMBER: 2   ***
+     INPUT                           OUTPUT
+ 1   2   8   9                a   b  r3   c  
+ 1   6   7   0       -->     s1  r2  s3    
+ 2   3   4   5               r1   f   g  s2  
+
+
+  ***   TEST NUMBER: 3   ***
+INPUT
+ 1   2   8   9  
+ 1   6   7   0  
+ 2   4   5   6  
+
+OUTPUT
+INCORRECT
+
